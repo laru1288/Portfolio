@@ -83,6 +83,18 @@ h3{
     justify-content:space-around;
     align-items: center;
     margin-top: 10%;
+    list-style: none;
+}
+
+.Presentacion {
+    display: flex;
+    align-items: center;
+    padding: 90px;
+}
+
+.Presentacion p{
+    text-align: justify;
+    padding: 50px;
 }
 
 footer {
