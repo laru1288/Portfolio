@@ -36,8 +36,6 @@ body {
     border: 3px solid #555555;
 }
 
-
-
 .barra-navegacion ul {
     display: flex; 
     justify-content:space-around;
@@ -51,7 +49,7 @@ body {
 .barra-navegacion a {
     text-decoration: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 1rem;
     font-family: 'Alegreya', serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -81,6 +79,7 @@ h3{
     text-align: center;
 }
 
+
 .Contenido ul{
     display: flex; 
     justify-content:space-around;
@@ -98,6 +97,25 @@ h3{
 .Presentacion p{
     text-align: justify;
     padding: 50px;
+}
+
+.tabla {
+    padding:10%;
+}
+
+.tabla a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Alegreya', serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .5s ease;
+}
+
+.tabla a:hover {
+    color: #F6D909;
+    transform: scale(1.2);
 }
 
 footer {
@@ -124,6 +142,7 @@ footer li {
 footer ul li a:hover {
     color: #F6D909;
     transform: scale(1.2);
+    transition: .5s ease;
 }
 
 
