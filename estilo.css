@@ -88,6 +88,12 @@ h3{
     list-style: none;
 }
 
+.Contenido ul li:hover{
+    color: #F6D909;
+    transform: scale(1.2); 
+    transition: .5s ease;
+}
+
 .Presentacion {
     display: flex;
     align-items: center;
